@@ -1,7 +1,6 @@
 import numpy as np
 import streamlit as st 
 import pickle as pkl
-import sklearn
     
 # loading in the model to predict on the data  
 #open_model = open('model.pkl', 'rb')  
