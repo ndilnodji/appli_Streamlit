@@ -1,1 +1,2 @@
 ﻿pip install pickle-mixin
+pip install scikit-learn-mixin
