@@ -6,7 +6,7 @@ import pickle as pkl
 #open_model = open('model.pkl', 'rb')  
 #load_model= pkl.load(open_model)
 ##chargement du Model
-model_charge=pkl.load(open('mon_model.sav','rb'))
+model_charge=pkl.load(open('C:/Users/NDIL_TECH4CHAD_DATA/mon_application/appli_Streamlit/mon_model.sav','rb'))
 
 def prix_voiture(input_data):
     input_data_numpy=np.asarray(input_data)
@@ -17,7 +17,7 @@ def prix_voiture(input_data):
 def main():
     st.title('BIENVENUE SUR LE SITE DE PREDICTION DES PRIX DES VOITURES') 
     
-    Manufacturer=st.number_input('Entrez le nom du Fabriquant')  
+    Manufacturer=st.number_input('Veullez Entrez le nom du Fabriquant')  
     Model=st.number_input('Entrez le Model de la voiture ') 
     annee_prod=st.number_input('Entrez l\'annee de fabrication de la voiture') 
     Category=st.number_input('Entrez la categorie de la voiture') 
