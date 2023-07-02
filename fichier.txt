@@ -1,3 +1,4 @@
-﻿pip install pickle-mixin
-pip install scikit-learn
-pip install sklearn
+numpy==1.21.5
+sklearn==1.0.2
+streamlit==1.24.0
+joblib==1.1.0
