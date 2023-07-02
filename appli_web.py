@@ -7,7 +7,7 @@ import pickle as pkl
 #open_model = open('model.pkl', 'rb')  
 #load_model= pkl.load(open_model)
 ##chargement du Model
-#model_charge=pkl.load(open('mon_model.sav','rb'))
+model_charge=pkl.load(open('mon_model.sav','rb'))
 
 def prix_voiture(input_data):
     input_data_numpy=np.asarray(input_data)
@@ -41,8 +41,8 @@ def main():
 
     predir=''
                                
- #   if st.button('Resultat') :
-  #      predir=prix_voiture([Manufacturer,Model,annee_prod,Category,Leathere_interior,Fuel_type ,Engine_volume,Mileage,Cylinders,Gear_box_type,Drive_wheels,Doors,Wheel,Color,Airbags])
+    if st.button('Resultat') :
+        predir=prix_voiture([Manufacturer,Model,annee_prod,Category,Leathere_interior,Fuel_type ,Engine_volume,Mileage,Cylinders,Gear_box_type,Drive_wheels,Doors,Wheel,Color,Airbags])
 
 
     st.success(predir)
