@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+﻿numpy==1.21.5
+sklearn==1.0.2
+streamlit==1.24.0
+joblib==1.1.0
+=======
+numpy==1.21.5
+sklearn==1.0.2
+streamlit==1.24.0
+joblib==1.1.0
+>>>>>>> e8c792bd1561651b34a191705b9d47bdb1f27fb5
